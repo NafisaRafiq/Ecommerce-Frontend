@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand - Mobile Accessories</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS if necessary -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="c:\Users\PMY\Desktop\DH TASK Complete\user-options\logo-symbol.png" alt="Brand Logo">
+            <h2>Brand</h2>
+        </div>
+    
+        <div class="search-container">
+            <input type="text" placeholder="Search">
+            <select>
+                <option>All category</option>
+            </select>
+            <button>Search</button>
+        </div>
+    
+        <div class="user-logo">
+            <div class="user">
+                <img src="c:\Users\PMY\Desktop\DH TASK Complete\user-options\profile.png" alt="Profile">
+                <p>Profile</p>
+            </div>
+            <div class="user">
+                <img src="c:\Users\PMY\Desktop\DH TASK Complete\user-options\message.png" alt="Message">
+                <p>Message</p>
+            </div>
+            <div class="user">
+                <img src="c:\Users\PMY\Desktop\DH TASK Complete\user-options\heart.png" alt="Orders">
+                <p>Orders</p>
+            </div>
+            <div class="user">
+                <img src="c:\Users\PMY\Desktop\DH TASK Complete\user-options\cart.png" alt="My Cart">
+                <p>My Cart</p>
+            </div>
+        </div>
+    
+    </header>
+    
+    <div class="header-part-2">
+            
+        <nav class="navbar">
+        <img src="c:\Users\PMY\Desktop\DH TASK Complete\user-options\menu.png"><a href="#home">All catagory</a>
+            <a href="#about">Hot offers</a>
+            <a href="#services">Gift boxes</a>
+            <a href="#project">Projects</a>
+            <a href="#project">Menu item</a>
+            <a href="#contact">Help <i class="fa-sharp-duotone fa-solid fa-angle-down"></i></a>
+        </nav>
+    
+    <div class="navbar-2">
+        <div class="col-1">
+            <p>English, USD <i class="fa-sharp-duotone fa-solid fa-angle-down"></i></p>
+    </div>
+    <div class="col-1">
+        <p>Ship to <img src="c:\Users\PMY\Desktop\DH TASK Complete\user-options\flag.png"> <i class="fa-sharp-duotone fa-solid fa-angle-down"></i></p>
+    </div>
+    </div>
+    
+    </div>
+    <hr>
+    <style>
+    
+    
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 7%;
+        background-color: white;
+    }
+    
+    .logo{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .logo img{
+        width: 40px;
+        height: 40px;
+        background-color: #007bff;
+        padding: 5px;
+        border-radius: 5px; 
+    }
+    
+    .logo h2 {
+        font-size: 25px;
+        color: #78addc;
+    }
+    
+    .search-container {
+        display: flex;
+        border: 2px solid #007bff;
+        border-radius: 5px;
+        overflow: hidden;
+        width: 500px;
+    }
+    .search-container input {
+        border: none;
+        padding: 10px;
+        flex: 1;
+        outline: none;
+        font-size: 16px;
+    }
+    .search-container select {
+        border: none;
+        padding: 10px;
+        border-left: 1px solid #007bff;
+        outline: none;
+        font-size: 16px;
+    }
+    .search-container button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    .search-container button:hover {
+        background-color: #0056b3;
+    }
+    
+    .user-logo {
+        display: flex;
+        gap: 17px;
+    }
+    
+    .user {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #6c757d;
+        font-size: 12px;
+    }
+    
+    .user img {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 5px;
+    }
+    
+    .user p{
+        font-size: 14px;
+        color: #a2a7ab;
+    }
+    
+    .header-part-2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px 9% 10px 7%;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        background-color: white;
+    }
+    
+    .navbar a{
+        text-decoration: none;
+        font-size: 17px;
+        color: black;
+        padding: 10px;
+    }
+    
+    .navbar-2{
+        display: flex;
+    }
+    
+    .navbar-2 i{
+        padding-right: 15px;
+    }
+    
+    .navbar-2 img{
+        padding: 0 6px;
+    }
+    
+    hr{
+        color:  #8688895c;
+    }
+    
+    </style>
+     <section class="newsletter">
+        <h2>Subscribe on our newsletter</h2>
+        <p>Get daily news on upcoming offers from many suppliers all over the world</p>
+        <input type="email" placeholder="Email">
+        <button>Subscribe</button>
+    </section>
+
+    
+    <footer>
+        <footer-container>
+            <div class="footer-row">
+                <div class="col">
+                    <div class="content">
+                        <div class="brand-img">
+                            <img src="c:\Users\PMY\Desktop\DH TASK Complete\user-options\logo-symbol.png">
+                            <h2>Brand</h2>
+                        </div>
+                       
+                        <p>Best information about the company  gies here but now lorem ipsum is .</p>
+                </div>
+                <div class="footer-icons">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+                </div>
+                <div class="col">
+                    <div class="links">
+                        <h2>About</h2>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">find store</a></li>
+                            <li><a href="#">catagories</a></li>
+                            <li><a href="#">blogs</a></li>
+                        </ul>
+                    </div>
+                    </div>
+        
+        
+                    <div class="col">
+                        <div class="links">
+                            <h2>Partnership</h2>
+                            <ul>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">find store</a></li>
+                                <li><a href="#">catagories</a></li>
+                                <li><a href="#">blogs</a></li>
+                            </ul>
+                        </div>
+                        </div>
+        
+                        <div class="col">
+                            <div class="links">
+                                <h2>Information</h2>
+                                <ul>
+                                    <li><a href="#">Help Center</a></li>
+                                    <li><a href="#">Money Refund</a></li>
+                                    <li><a href="#">Shipping</a></li>
+                                    <li><a href="#">Contact us</a></li>
+                                </ul>
+                            </div>
+                            </div>
+        
+                            <div class="col">
+                                <div class="links">
+                                    <h2>For users</h2>
+                                    <ul>
+                                        <li><a href="#">login</a></li>
+                                        <li><a href="#">register</a></li>
+                                        <li><a href="#">settings</a></li>
+                                        <li><a href="#">my orders</a></li>
+                                    </ul>
+                                </div>
+                                </div>
+        
+                                <div class="col">
+                                    <div class="links">
+                                        <h2>Get app</h2>
+                                       <div class="google-img">
+                                        <img src="c:\Users\PMY\Desktop\DH TASK Complete\user-options\app-store-badge.png">
+                                        <img src="c:\Users\PMY\Desktop\DH TASK Complete\user-options\google.webp">
+                                       </div>
+                                    </div>
+                                    </div>
+        
+        
+                                </div>
+                                </footer-container>
+                                </footer>
+        
+        <hr>
+                               
+                                    <div class="copy-right">
+                                        <div class="copy-row">
+                                            <div class="col">
+                            
+                                                <p class="copyright">© 2023 Ecommerce.</p>
+                                            </div>
+                                            <div class="col-1">
+                                                <p> <img src="c:\Users\PMY\Desktop\DH TASK Complete\user-options\flag.png">English<i class="fa-sharp-duotone fa-solid fa-angle-down"></i></p>
+                                            </div>
+                                            </div>
+                                        </div>
+                            <hr>
+        
+     
+        <style>
+        
+        footer{
+            background-color: white;
+        }
+        
+        
+         .footer-row{
+            display: flex;
+            justify-content: center;
+            padding:30px 6%;
+         }
+        
+         .brand-img{
+            display: flex;
+            gap: 5px;
+            margin-bottom: 15px;
+            align-items: center;
+         }
+        
+         .brand-img img{
+            width: 40px;
+            height: 40px;
+            background-color: #007bff;
+            padding: 5px;
+            border-radius: 5px; 
+        }
+        
+        .logo h2 {
+            font-size: 25px;
+            color: #78addc;
+        }
+        
+         .content p{
+            color: black;
+            font-size: 15px;
+         }
+        
+        .footer-icons i{ 
+           border-radius: 50%;
+           background-color: #a2a7ab;
+           border:1px solid #a2a7ab;
+           padding: 6px;
+           color: white;
+        }
+        
+        .links{
+            margin-left: 40px;
+        }
+        
+        
+         .links h2{
+            color:black;
+            font-size: 18px;
+         }
+        
+         .links ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .links li {
+            margin: 8px 0;
+        }
+        
+        .links a {
+            color: rgb(128, 122, 122);
+            text-decoration: none;
+        }
+        
+        .google-img{
+            margin: 8px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .google-img img{
+            height: 60px;
+            width: 200px;
+        }
+        
+        
+        
+        
+        
+        
+        
+        .copy-right{
+            margin:20px 6%;
+        }
+        .copy-row{
+            display: flex;
+        }
+        
+        
+        
+        
+        .col-1 i{
+            padding-left: 5px;
+        }
+        
+        .col-1 img{
+            padding: 0 5px;
+        }
+        
+        hr{
+            color:  #8688895c;
+        }
+        
+        </style>
+        
+        
+        
+        
+    <script>
+        function updatePriceLabel(value) {
+            document.getElementById("priceLabel").textContent = "Price: $" + value;
+        }
+
+        function updateRange() {
+            let minPrice = document.getElementById("minPrice").value;
+            let maxPrice = document.getElementById("maxPrice").value;
+            let rangeInput = document.getElementById("priceRange");
+
+            rangeInput.min = minPrice;
+            rangeInput.max = maxPrice;
+            rangeInput.value = minPrice;
+            updatePriceLabel(minPrice);
+        }
+
+        function applyPriceFilter() {
+            let minPrice = document.getElementById("minPrice").value;
+            let maxPrice = document.getElementById("maxPrice").value;
+            let selectedPrice = document.getElementById("priceRange").value;
+
+            alert(`Price range applied:\nMin: $${minPrice}\nMax: $${maxPrice}\nSelected: $${selectedPrice}`);
+        }
+    </script>
+
+</body>
+</html>
